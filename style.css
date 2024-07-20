@@ -1,0 +1,62 @@
+@import url('https://dl.dafont.com/dl/?f=komika_axis');
+ 
+body {
+    font-family:'Komika Axis';
+    background-image: url(Untitled%20design.png);
+    background-repeat: no-repeat;
+}
+.box {
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+}
+.box img {
+    margin:20px auto 20px 670px;
+    height:200px;
+}
+.content ul{
+    list-style-type: none;
+    margin-left:450px;
+    margin-right:450px;
+    display:flex;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+}
+.content ul a{
+    color:white;
+    text-decoration: none;
+}
+.content ul a:hover {
+    color:white;
+    text-decoration: underline;
+}
+.text h1{
+    font-size:60px;
+    color:white;
+    margin-left:600px;
+}
+.text p{
+    color: white;
+    text-align: center;
+}
+.buttons button {
+    padding:20px 40px 20px 40px;
+    font-size:30px;
+    border-radius: 50px;
+    border:3px solid skyblue;
+    background: transparent;
+    color:white;
+}
+.buttons button a{
+  color: white;
+  text-decoration: none;
+}
+.buttons button:hover {
+    cursor: pointer;
+    background-color: skyblue;
+}
+.buttons{
+    margin: auto 450px auto 450px;
+}
